@@ -216,7 +216,7 @@ function timerModule (options) {
 
         $body.animate({
             scrollTop: $target.offset().top
-        }, settings.duration);
+        }, settings.scrollDuration);
     }
 
     function bindings () {
